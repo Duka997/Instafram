@@ -1,0 +1,71 @@
+package gui;
+
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
+
+import actions.About;
+import actions.AddCompany;
+import actions.AddParameter;
+import actions.AddProduct;
+import actions.CloseAction;
+import actions.ConfigAction;
+import actions.DeleteNode;
+import actions.Help;
+import actions.OpenAction;
+import actions.SaveAction;
+
+/*
+ * Menu bar koji sadrzi osnovne funkcije
+ * */
+
+@SuppressWarnings("serial")
+public class MyMenuBar extends JMenuBar{
+	
+	public MyMenuBar () {
+		
+		JMenu file = new JMenu("File");
+		JMenu miNew = new JMenu("New");
+		AddCompany cda = new AddCompany();
+		miNew.add(cda);
+		AddProduct cda2 = new AddProduct();
+		miNew.add(cda2);
+		AddParameter cda3 = new AddParameter();
+		miNew.add(cda3);
+		
+		OpenAction open = new OpenAction();
+		SaveAction save = new SaveAction();
+		CloseAction close = new CloseAction();
+
+		JMenuItem miOpen = new JMenuItem(open);
+		JMenuItem miSave = new JMenuItem(save);
+		JMenuItem miClose = new JMenuItem(close);
+		
+		file.add(miNew);
+		file.addSeparator();
+		file.add(miOpen);
+		file.add(miSave);
+		file.addSeparator();
+		file.add(miClose);
+		
+		JMenu edit=new JMenu("Edit");
+		//Brisanje cvora
+		DeleteNode cda4 = new DeleteNode();
+		edit.add(cda4);
+		
+		JMenu tools=new JMenu("Tools");
+		JMenu help = new JMenu(new Help());
+		JMenu configurator = new JMenu(new ConfigAction());
+		
+		help.add(new About());
+		configurator.add(new ConfigAction());
+		
+		add(file);
+		add(edit);
+		add(tools);
+		add(configurator);
+		add(help);
+		
+	}
+
+}

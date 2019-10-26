@@ -1,0 +1,25 @@
+package actions;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.KeyEvent;
+
+import javax.swing.AbstractAction;
+import javax.swing.ImageIcon;
+
+public class Help extends AbstractAction {
+	private static final long serialVersionUID = 6599528245091718692L;
+
+	public Help() {
+		putValue(NAME, "Pomoc");
+		putValue(SHORT_DESCRIPTION, "Pomoc");
+		putValue(MNEMONIC_KEY, KeyEvent.VK_P);
+		putValue(LARGE_ICON_KEY, new ImageIcon("images/help.png"));
+		putValue(SMALL_ICON, new ImageIcon("images/help.png"));
+	}
+	
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		
+
+	}
+}

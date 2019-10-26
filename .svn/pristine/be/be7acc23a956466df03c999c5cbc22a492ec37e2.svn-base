@@ -1,0 +1,108 @@
+
+English = English
+
+Serbian = Serbian
+
+Kompanije = Companies
+
+kompanija = Company
+
+novaKompanija = New company
+
+statusBar = Status bar
+
+instalacioniFramework = Instalation Framework
+
+imeKompanije = Company name:
+
+sediste = Headquarters:
+
+brZaposlenih = Number of employees:
+
+odustani = Exit
+
+sledece = Next
+
+prethodno = Previous
+
+dodaj = Add
+
+nazivProizvoda = Product name:
+
+verzija = Version:
+
+brRadnihSati = Number of working hours:
+
+dodajSliku = Add photo
+
+ukloniSliku = Remove photo
+
+nazivParametra = Parameter name:
+
+vrParametra = Parameter value:
+
+azuriraj = Update
+
+greskaNazivKompanije = You did not enter name of the company
+
+greskaSediste = You did not enter headquarters of company
+
+uspesnoDodato = Successfully added
+
+selektujteCvor = Select node
+
+neMozeteDodatiKompaniju = You can not add company here
+
+uspesnoAzurirano = Successfully updated
+
+fajl = File
+
+novo = New
+
+zatvori = Close
+
+izmeni = Edit
+
+alat = Tools
+
+izvorZip = Source (zip):
+
+dobrodosli = Welecome text:
+
+licenca = Licence:
+
+verzija = Version:
+
+izaberiteZip = Choose a zip file
+
+export = Export
+
+pomoc = Help
+
+pomocniDijalog = Here you can find help dialog
+
+oProgramu = About program
+
+odrediste = Destination: 
+
+uspesnoInstaliran = Softver product is successfully instaled
+
+kraj = End
+
+agree = I agree with the terms of the license
+
+cvorBrisanje = Select node you wan to delete
+
+greskaBrisanje = You can not delete this node
+
+uspesnoBrisanje = Successfully deleted node 
+
+configProduct = Product configurator 
+
+configGreska = You did not choose product
+
+selektGreska = You did not select parameter
+
+zipGreska = You did not select zip file
+
+putanjaGreska = You did not chose file path
